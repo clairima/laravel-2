@@ -13,6 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Route::get('/', function () {
+    //return view('welcome');
+//});
+
 Route::get('/', function () {
-    return view('welcome');
+    echo "<h1>On staging“ This is Staging Environment - RIMA MERTAH ”
+
+</h1>";
+    echo "<h1>On Production“ This is Production Environment- RIMA MERTAH ”
+
+</h1>";
 });
